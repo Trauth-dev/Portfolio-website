@@ -21,7 +21,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Sistema Reserva Cita Médica",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pgPnyPACYzk8prEa6JBlAl61Sv1OdZ.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-25%20at%207.53.57%20PM-2tiKkYtNoZHA4BAzo6ZNlxKZ1qcK6n.jpeg",
       url: "https://agendamiento-cita.vercel.app/",
       description: "Sistema de registro y reserva digital",
       credentials: "Demo: trauthdemo@gmail.com / demo123",
@@ -37,7 +37,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "Sistema de Finanzas Personales",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-usiUvpO967QJVmtCtFJ0U4b9MhHFsg.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KRFP0LGtH1aU89feSBydJb0oi6nLI9.png",
       url: "https://vercel.com/matias-projects-63f50bf0/v0-personal-finance-system",
       description: "Dashboard completo para control financiero personal",
       credentials: "Demo: trauthdemo@gmail.com / demo123",
