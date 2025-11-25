@@ -13,39 +13,31 @@ export default function Portfolio() {
     {
       id: 1,
       title: "Sistema de Inventario - MEC",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1CbFlbMr1WxGqfcoX1F8DAwQMQvSQX.png",
+      image: "/images/image.png",
       url: "https://v0-inventory-system-with-tailwind.vercel.app/dashboard/control",
       description: "Sistema de control de inventario para el Ministerio de Educación",
       credentials: "Demo: usuario@demo.com / demo123",
     },
     {
       id: 2,
-      title: "Sistema de Control Horario",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pgPnyPACYzk8prEa6JBlAl61Sv1OdZ.png",
-      url: "https://v0-time-control-system.vercel.app/dashboard",
-      description: "Sistema de huellero digital para control de asistencia",
-      credentials: "Demo: usuario@demo.com / demo123",
-    },
-    {
-      id: 3,
       title: "Registro de Supervisores - MEC",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pgPnyPACYzk8prEa6JBlAl61Sv1OdZ.png",
-      url: "https://vercel.com/matias-projects-63f50bf0/v0-supervisor-registration-site",
+      image: "/images/image.png",
+      url: "https://supervisor-registration.vercel.app/",
       description: "Plataforma de registro para supervisores del MEC Paraguay",
       credentials: "",
     },
     {
-      id: 4,
+      id: 3,
       title: "Sistema de Finanzas Personales",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-usiUvpO967QJVmtCtFJ0U4b9MhHFsg.png",
-      url: "https://vercel.com/matias-projects-63f50bf0/v0-personal-finance-system",
+      image: "/images/image.png",
+      url: "https://misfinanzaspersonales.vercel.app/",
       description: "Dashboard completo para control financiero personal",
       credentials: "Demo: usuario@demo.com / demo123",
     },
     {
-      id: 5,
+      id: 4,
       title: "Fundación Principios de Vida",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-X7Jw0YsE3g1fGn2K7ibsy2AY0LwuPu.png",
+      image: "/images/image.png",
       url: "https://fpv.edu.py/",
       description: "Sitio web institucional - Trabajo actual",
       credentials: "",
@@ -121,7 +113,7 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-                  <span className="text-cyan-400">Matías Trauth</span>
+                <span className="text-cyan-400">Matías Trauth</span>
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl text-cyan-300 mb-4 sm:mb-6">
                 Systems Analyst & Web Developer
@@ -166,11 +158,7 @@ export default function Portfolio() {
             <div className="relative order-first md:order-last">
               <div className="relative w-full max-w-xs sm:max-w-md mx-auto">
                 <div className="absolute inset-0 bg-cyan-500/20 rounded-2xl blur-3xl"></div>
-                <img
-                  src="/images/design-mode/image.png"
-                  alt="Matías Trauth"
-                  className="relative rounded-2xl w-full"
-                />
+                <img src="/images/design-mode/image.png" alt="Matías Trauth" className="relative rounded-2xl w-full" />
               </div>
             </div>
           </div>
@@ -477,50 +465,43 @@ export default function Portfolio() {
                 title: "Análisis de Datos con SQL",
                 org: "Smart Data",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MBl86qIQH60RfUtm22GCdoiwhKBecs.png",
+                image: "/images/image.png",
               },
               {
                 title: "Especialización en SEO",
                 org: "Netzun",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-h5M2IQ3UZ2OO5LmVaiOcgm7hooLaUS.png",
+                image: "/images/image.png",
               },
               {
                 title: "Especialización en Diseño UX",
                 org: "Netzun - San Ignacio University",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-saNYLJ4SS7G3KDt7dbrz7PRzsQW96c.png",
+                image: "/images/image.png",
               },
               {
                 title: "Crea tu sitio web con WordPress",
                 org: "Netzun",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Ew2EbafDsZGfBGVA6C1B8pSJnzeQru.png",
+                image: "/images/image.png",
               },
               {
                 title: "SEO Avanzado",
                 org: "Netzun",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9bgplxb7SJKd8Y3oZnSjBSWkjFuSa8.png",
+                image: "/images/image.png",
               },
               {
                 title: "Moodle versión 5 para administradores",
                 org: "Udemy",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-eXrPnnMLFxtlMn3qS8Tqhwjx54tvEo.png",
+                image: "/images/image.png",
               },
               {
                 title: "React 19: De Cero a Avanzado con Supabase",
                 org: "Udemy",
                 year: "2025",
-                image:
-                  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ucoiypatFPRCFDM8OmsH7tX90Z2mf3.png",
+                image: "/images/image.png",
               },
             ].map((cert, index) => (
               <Card

@@ -1,169 +1,85 @@
 # Portfolio Web - Matías Trauth
 
-Professional portfolio website showcasing web development projects, technical skills, certifications, and professional experience. Built with modern web technologies for optimal performance and user experience.
+Professional portfolio website showcasing web development projects, technical skills, professional certifications, and career experience. Built with modern technologies for optimal performance and user experience.
 
-## 🎯 Project Overview
+---
 
-This portfolio serves as a comprehensive professional presentation platform designed for employment opportunities and client outreach. It features a responsive design, smooth animations, and an intuitive user interface that highlights technical expertise and completed projects.
+## 🎯 Overview
+
+This portfolio serves as a comprehensive digital presentation for professional opportunities and client engagement. Features include responsive design, smooth animations, and intuitive navigation highlighting technical expertise and completed projects.
+
+---
 
 ## 🛠 Technology Stack
 
 ### Core Framework
-- **Next.js 16.0.0** - React framework with server-side rendering and optimal performance
-- **React 19.2.0** - JavaScript library for building user interfaces
-- **TypeScript 5.x** - Typed superset of JavaScript for enhanced code quality
+- **Next.js 16.0.0** - React framework with server-side rendering
+- **React 19.2.0** - UI library
+- **TypeScript 5.x** - Type-safe JavaScript
 
 ### Styling & UI
 - **Tailwind CSS 4.1.9** - Utility-first CSS framework
-- **Tailwind CSS Animate** - Animation utilities for Tailwind
-- **Class Variance Authority** - CSS-in-JS variant management
-- **Lucide React** - Icon library with consistent design
+- **Tailwind CSS Animate** - Animation utilities
+- **Lucide React** - Icon library
 
 ### UI Components
-- **Radix UI** - Comprehensive collection of accessible components:
-  - Accordion, Alert Dialog, Avatar
-  - Checkbox, Dialog, Dropdown Menu
-  - Navigation Menu, Popover, Tabs
-  - Toast notifications, Tooltips
-  - And 20+ additional components
+- **Radix UI** - Accessible component library
+- **shadcn/ui** - Re-usable component collection
 
 ### Form Management
-- **React Hook Form 7.60.0** - Performant form validation
-- **Zod 3.25.76** - Schema validation with TypeScript integration
-- **@hookform/resolvers** - Form validation resolver integration
+- **React Hook Form 7.60.0** - Form validation
+- **Zod 3.25.76** - Schema validation
 
 ### Additional Libraries
-- **date-fns 4.1.0** - Date manipulation and formatting
-- **Embla Carousel** - Touch-friendly carousel component
-- **Recharts 2.15.4** - Composable charting library
-- **Sonner** - Toast notification system
-- **Vaul** - Drawer component for mobile interfaces
+- **date-fns 4.1.0** - Date utilities
+- **Embla Carousel** - Touch carousel
+- **Recharts 2.15.4** - Charts library
+- **Sonner** - Toast notifications
 
-### Analytics & Monitoring
-- **Vercel Analytics** - Performance and visitor analytics
+---
 
 ## 📂 Project Structure
 
 \`\`\`
 portfolio/
 ├── app/
-│   ├── layout.tsx          # Root layout with metadata and fonts
-│   ├── page.tsx            # Main portfolio page component
-│   └── globals.css         # Global styles and Tailwind configuration
+│   ├── layout.tsx          # Root layout with metadata
+│   ├── page.tsx            # Main portfolio component
+│   └── globals.css         # Global styles and Tailwind config
 ├── components/
-│   └── ui/                 # Reusable UI components (shadcn/ui)
+│   └── ui/                 # Reusable UI components
 ├── public/
-│   └── images/             # Static images and assets
+│   └── images/             # Static assets
 ├── lib/
 │   └── utils.ts            # Utility functions
-├── package.json            # Project dependencies
-├── tsconfig.json           # TypeScript configuration
-└── tailwind.config.js      # Tailwind CSS configuration
+├── package.json
+├── tsconfig.json
+└── tailwind.config.js
 \`\`\`
 
-## 🎨 Key Features
-
-### 1. Responsive Navigation
-- Fixed header with smooth scroll navigation
-- Mobile-optimized hamburger menu
-- Active section highlighting
-- Accessible navigation links
-
-### 2. Hero Section
-- Professional profile image
-- Animated introduction
-- Social media integration (GitHub, LinkedIn, WhatsApp)
-- Call-to-action button
-
-### 3. About Section
-- Professional summary
-- Educational background
-- Work experience timeline
-- Technical expertise overview
-
-### 4. Services Showcase
-- 7 specialized service offerings:
-  - Web Development (React, Next.js)
-  - UI/UX Design
-  - E-commerce Solutions (Shopify, WordPress)
-  - Data Analysis & SQL
-  - No-Code Development
-  - Moodle LMS Administration
-  - SEO Optimization
-
-### 5. Skills Matrix
-- Three-tier proficiency system:
-  - **Básico**: HTML, JavaScript, TypeScript, React, Next.js, SQL, SEO
-  - **Intermedio**: WordPress, Moodle, Data Analysis, UI/UX, Responsive Design
-  - **Avanzado**: Office Suite (Advanced)
-- Visual badge system for easy comprehension
-
-### 6. Portfolio Gallery
-- **Interactive Carousel**: Featured project slideshow with navigation
-- **Static Grid**: Overview of all projects
-- **Project Details**: 
-  - Project titles and descriptions
-  - Live demo links
-  - Demo credentials for protected applications
-  - High-quality screenshots
-
-**Featured Projects**:
-1. Inventory Management System (MEC)
-2. Time Control System
-3. Supervisor Registration Platform (MEC)
-4. Personal Finance Dashboard
-5. Fundación Principios de Vida Website
-
-### 7. Certificates Section
-- 7 professional certifications from 2025:
-  - SQL Data Analysis (Smart Data)
-  - SEO Specialization (Netzun)
-  - UX Design Specialization (Netzun - San Ignacio University)
-  - WordPress Development (Netzun)
-  - Advanced SEO (Netzun)
-  - Moodle 5 Administration (Udemy)
-  - React 19 Full Stack with Supabase (Udemy)
-
-### 8. Contact Form
-- Email, phone, and location information
-- Interactive contact form
-- Social media quick links
-- WhatsApp direct messaging integration
+---
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
 - Node.js 18.x or higher
-- npm, yarn, or pnpm package manager
+- npm, yarn, or pnpm
 
-### Installation Steps
+### Installation
 
-1. **Clone the repository**
 \`\`\`bash
+# Clone repository
 git clone https://github.com/Trauth-dev/portfolio-website.git
 cd portfolio-website
-\`\`\`
 
-2. **Install dependencies**
-\`\`\`bash
+# Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-\`\`\`
 
-3. **Run development server**
-\`\`\`bash
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 \`\`\`
 
-4. **Open browser**
-Navigate to [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Build for Production
 
@@ -172,95 +88,164 @@ npm run build
 npm run start
 \`\`\`
 
-## 📊 Performance Optimization
+---
 
-- **Server-Side Rendering**: Optimized initial page load
-- **Image Optimization**: Next.js automatic image optimization
-- **Code Splitting**: Automatic route-based code splitting
-- **Lazy Loading**: Components load on-demand
-- **Minification**: CSS and JavaScript minification in production
+## 🎨 Key Features
+
+### 1. **Responsive Navigation**
+- Fixed header with smooth scrolling
+- Mobile hamburger menu
+- Active section highlighting
+
+### 2. **Hero Section**
+- Professional profile image
+- Animated introduction
+- Social media links (GitHub, LinkedIn, WhatsApp)
+
+### 3. **About Section**
+- Professional summary
+- Educational background
+- Work experience
+
+### 4. **Services Showcase**
+Seven specialized services:
+- Web Development (React, Next.js)
+- UI/UX Design
+- E-commerce Solutions
+- Data Analysis & SQL
+- No-Code Development
+- Moodle LMS Administration
+- SEO Optimization
+
+### 5. **Skills Matrix**
+Three proficiency tiers:
+- **Básico**: HTML, JavaScript, TypeScript, React, Next.js, SQL, SEO
+- **Intermedio**: WordPress, Moodle, Data Analysis, UI/UX Design
+- **Avanzado**: Office Suite
+
+### 6. **Portfolio Gallery**
+Interactive carousel and static grid displaying:
+
+**Featured Projects:**
+1. **Sistema de Inventario - MEC**
+   - Inventory management system for Ministry of Education
+   - Live: [v0-inventory-system-with-tailwind.vercel.app](https://v0-inventory-system-with-tailwind.vercel.app/dashboard/control)
+   - Demo credentials: `usuario@demo.com` / `demo123`
+
+2. **Registro de Supervisores - MEC**
+   - Supervisor registration platform for Ministry of Education (Paraguay)
+   - Live: [supervisor-registration.vercel.app](https://supervisor-registration.vercel.app/)
+
+3. **Sistema de Finanzas Personales**
+   - Complete personal finance dashboard
+   - Live: [misfinanzaspersonales.vercel.app](https://misfinanzaspersonales.vercel.app/)
+   - Demo credentials: `trauthdemo@gmail.com` / `demo123`
+
+4. **Fundación Principios de Vida**
+   - Institutional website (Current employment)
+   - Live: [fpv.edu.py](https://fpv.edu.py/)
+
+### 7. **Certificates Section**
+Seven professional certifications (2025):
+- SQL Data Analysis (Smart Data)
+- SEO Specialization (Netzun)
+- UX Design Specialization (Netzun - San Ignacio University)
+- WordPress Development (Netzun)
+- Advanced SEO (Netzun)
+- Moodle 5 Administration (Udemy)
+- React 19 Full Stack with Supabase (Udemy)
+
+### 8. **Contact Section**
+- Professional contact information
+- Interactive contact form
+- Social media integration
+- WhatsApp direct messaging
+
+---
+
+## 🔐 Demo Access
+
+For projects requiring authentication, use these demo credentials:
+
+**Standard Projects:**
+- Email: `usuario@demo.com`
+- Password: `demo123`
+
+**Personal Finance System:**
+- Email: `trauthdemo@gmail.com`
+- Password: `demo123`
+
+---
+
+## 📊 Performance Features
+
+- Server-side rendering for fast initial load
+- Automatic image optimization
+- Route-based code splitting
+- Component lazy loading
+- Production minification
+
+---
 
 ## 🎨 Design System
 
 ### Color Palette
-- **Primary**: Cyan (#06b6d4) - Call-to-action elements
+- **Primary**: Cyan (#06b6d4)
 - **Background**: Dark gradient (Navy to Purple)
-- **Text**: White and gray tones for optimal contrast
-- **Accents**: Blue, Purple, Pink for visual hierarchy
+- **Text**: White and gray tones
+- **Accents**: Blue, Purple, Pink
 
 ### Typography
-- **Headings**: Bold, large-scale typography for impact
-- **Body**: Readable font sizes with proper line-height
-- **Responsive**: Scales appropriately across device sizes
+- Responsive font sizing
+- Optimal line-height for readability
+- Clear visual hierarchy
 
-### Spacing
-- Consistent spacing scale using Tailwind's spacing system
-- Responsive padding and margins
-- Proper visual hierarchy through whitespace
+---
 
-## 🔧 Configuration
+## 📱 Responsive Breakpoints
 
-### Tailwind Configuration
-The project uses Tailwind CSS v3 with custom configuration for:
-- Custom color schemes
-- Extended spacing utilities
-- Animation configurations
-- Responsive breakpoints
-
-### TypeScript Configuration
-Strict type checking enabled for code quality and maintainability.
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive across:
 - **Mobile**: 320px - 640px
 - **Tablet**: 641px - 1024px
 - **Desktop**: 1025px+
 
-### Breakpoints
+Tailwind breakpoints:
 - `sm`: 640px
 - `md`: 768px
 - `lg`: 1024px
 - `xl`: 1280px
 
-## 🔐 Security & Best Practices
-
-- TypeScript for type safety
-- Form validation with Zod schemas
-- Secure external links with `rel="noopener noreferrer"`
-- Accessible components using Radix UI
-- SEO-optimized metadata
+---
 
 ## 🌐 Deployment
 
-This portfolio is optimized for deployment on:
-- **Vercel** (Recommended)
-- **Netlify**
-- **AWS Amplify**
-- Any Node.js hosting platform
+Optimized for deployment on:
+- Vercel (Recommended)
+- Netlify
+- AWS Amplify
+- Any Node.js hosting
 
-### Vercel Deployment
+### Deploy to Vercel
 \`\`\`bash
 vercel --prod
 \`\`\`
 
-## 📄 License
+---
 
-© 2025 Matías Trauth. All rights reserved.
+## 👤 Professional Information
 
-## 👤 Author
+**Matías Trauth**  
+Systems Analyst & Web Developer
 
-**Matías Trauth**
-- Systems Analyst & Web Developer
+**Contact:**
 - Email: matiastrauth64@gmail.com
 - Phone: +595 976 148-630
 - Location: Asunción, Paraguay
 - GitHub: [@Trauth-dev](https://github.com/Trauth-dev)
 - LinkedIn: [Matías Trauth](https://www.linkedin.com/in/mat%C3%ADas-trauth-092b6921a)
 
-## 🤝 Professional Background
+**Professional Background:**
 
-Final-year Systems Analysis student with 2+ years of professional experience in:
+Final-year Systems Analysis student with 2+ years of professional experience specializing in:
 - Full-stack web development (React, Next.js)
 - Data analysis and SQL automation
 - UI/UX design and responsive development
@@ -272,4 +257,10 @@ Currently collaborating with the Ministry of Education and Sciences of Paraguay 
 
 ---
 
-**Note**: This portfolio demonstrates real-world application development skills and serves as a professional showcase for employment opportunities and freelance projects.
+## 📄 License
+
+© 2025 Matías Trauth. All rights reserved.
+
+---
+
+**Built with modern web technologies for optimal performance and user experience.**
